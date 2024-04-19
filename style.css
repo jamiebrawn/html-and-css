@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    background-color: #FAECE9;     
+}
+
+.twoCols {
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.topRow {
+    grid-template-columns: 3fr 2fr;
+}
+
+
+img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 20rem;
+    height: 20rem;
+}
+
+h1, h2, h3 {
+    font-family: Futura;
+    font-weight: normal;
+}
+
+h2, h3 {
+    margin-top: 2rem;
+}
+
+#footerLinks {
+    text-align : center;
+}
+
+ol , ul {
+    color : #000080;
+}
+
+a {
+    font-size : 1.1em;
+    padding : 0.5em;
+}
